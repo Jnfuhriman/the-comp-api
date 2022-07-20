@@ -17,9 +17,6 @@ app.get("/", (req, res) => {
   res.json({ message: "Welcome to the show. Strap in and let's kick it." });
 });
 
-// require("./app/routes/team.routes.js")(app);
-// require("./app/routes/player.routes.js")(app);
-// require("./app/routes/coach.routes.js")(app);
 require('./routes/gym.route')(app);
 require('./routes/event.route')(app);
 
