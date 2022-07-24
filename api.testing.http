@@ -1,2 +1,9 @@
 
-http://localhost:8080/events/alpen
+
+http://localhost:8080/events
+
+# http://localhost:8080/events/recent/6
+
+# http://localhost:8080/events/name/Rocktober
+
+# http://localhost:8080/events/id/8
